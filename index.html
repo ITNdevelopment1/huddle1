@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ka">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huddle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/2.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container inheader">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-comments logo-icon"></i>
+                <span>Huddle</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#stats" class="nav-link">Stats</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#!" class="btn btn-outline mobile-only-btn">Try It Free</a>
+            </nav>
+
+            <div class="header-right">
+                <a href="#!" class="btn btn-outline desktop-only-btn">Try It Free</a>
+                <button class="burger-btn" id="burgerBtn" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <span class="badge"><i class="fa-solid fa-sparkles"></i> Next-Gen Community</span>
+                <h1>Build The Community Your Fans Will Love</h1>
+                <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
+                <div class="hero-btns">
+                    <a href="#!" class="btn btn-primary pulse-btn">Get Started For Free</a>
+                    <a href="#!" class="btn btn-secondary"><i class="fa-solid fa-play"></i> Watch Demo</a>
+                </div>
+            </div>
+
+            <div class="hero-visual float-anim">
+                <div class="mockup-card">
+                    <div class="card-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="card-body">
+                        <div class="chat-bubble left">
+                            <i class="fa-solid fa-user-circle avatar"></i>
+                            <div class="msg">Hey everyone! How is the new feature working out?</div>
+                        </div>
+                        <div class="chat-bubble right">
+                            <div class="msg">It’s super fast and effortless! Loving it! 🔥</div>
+                            <i class="fa-solid fa-user-circle avatar accent"></i>
+                        </div>
+                        <div class="chat-bubble left">
+                            <i class="fa-solid fa-user-circle avatar"></i>
+                            <div class="msg">Engagement is up by +140%! 🚀</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section" id="stats">
+        <div class="container stats-grid">
+            <div class="stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-users"></i></div>
+                <h2>1.4k+</h2>
+                <p>Communities Formed</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-comments"></i></div>
+                <h2>2.7m+</h2>
+                <p>Messages Sent</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon-wrap"><i class="fa-solid fa-bolt"></i></div>
+                <h2>99.9%</h2>
+                <p>Uptime Guaranteed</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-wrapper" id="features">
+        <!-- FEATURE 1 -->
+        <div class="feature-card">
+            <div class="container feature-grid">
+                <div class="feature-text">
+                    <span class="feature-num">01</span>
+                    <h2>Grow Together</h2>
+                    <p>Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="illustration-box bg-pink">
+                        <i class="fa-solid fa-chart-line feature-big-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-card reverse">
+            <div class="container feature-grid">
+                <div class="feature-text">
+                    <span class="feature-num">02</span>
+                    <h2>Flowing Conversations</h2>
+                    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="illustration-box bg-purple">
+                        <i class="fa-solid fa-comments-dollar feature-big-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <div class="container feature-grid">
+                <div class="feature-text">
+                    <span class="feature-num">03</span>
+                    <h2>Your Users</h2>
+                    <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+                </div>
+                <div class="feature-visual">
+                    <div class="illustration-box bg-blue">
+                        <i class="fa-solid fa-user-shield feature-big-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container cta-box">
+            <h2>Ready To Build Your Community?</h2>
+            <p>Join thousands of creators building deep connections with their audience.</p>
+            <a href="#!" class="btn btn-primary btn-large">Get Started For Free</a>
+        </div>
+    </section>
+
+<footer class="footer">
+    <div class="container">
+        
+        <div class="footer-grid">
+            
+            <div class="footer-col">
+                <a href="#" class="footer-logo">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Huddle</span>
+                </a>
+                
+                <p class="footer-desc">
+                    Empowering creators and businesses to foster real, engaging, and long-lasting digital communities worldwide.
+                </p>
+
+                <ul class="contact-list">
+                    <li>
+                        <i class="fa-solid fa-phone"></i> 
+                        <span>+1-543-123-4567</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i> 
+                        <span>example@huddle.com</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>NEWSLETTER</h4>
+                <p>To receive tips on how to grow your community, sign up to our weekly newsletter.</p>
+                
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Your Email Address" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#!" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#!" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+               <a href="#!" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Huddle. All rights reserved.</p>
+        </div>
+
+    </div>
+</footer>
+
+</body>
+</html>
